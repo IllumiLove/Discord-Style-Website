@@ -22,7 +22,7 @@ function updateTheme() {
   }
 }
 updateTheme();
-setInterval(updateTheme(), 60000);
+setInterval(updateTheme(), 6000);
 //thingkibng  config
 const thingKing = document.querySelector(".youThingKing");
 thingKing.innerHTML = "大家好，我是Illumi這些是我擅長的語言";
