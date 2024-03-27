@@ -62,7 +62,7 @@ function spotify() {
     songName.innerHTML = `${spotify.song}`;
     songImg.setAttribute("src", `${spotify.album_art_url}`);
     singer.innerHTML = `by ${spotify.artist}`;
-    songLink.setAttribute("href", `https://www.youtube.com/watch?v=dQw4w9WgXcQ`);
+    songLink.setAttribute("href", `https://youtu.be/_eqhhRyjdA0?si=bzb61cYWSpZQzBFr`);
     if (
       spotify != null &&
       (spotify.artist == "BLACKPINK" ||
