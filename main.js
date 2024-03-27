@@ -85,7 +85,7 @@ function spotify() {
 }
 //vng role //（禁止編輯本段！！！）
 const vng = document.querySelector(".vng");
-if (proflieDefaut !== "654675180529909789") {
+if (proflieDefaut !== "472637182180458496") {
   vng.style.display = "none";
 } else {
   vng.style.display = "flex";
