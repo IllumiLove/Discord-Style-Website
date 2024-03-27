@@ -77,8 +77,8 @@ function spotify() {
     }
     album.innerHTML = `On ${spotify.album}`;
   } else {
-    if (audio) {
-      audio.style.display = "none";
+    if (listeningtoSpotify) {
+      listeningtoSpotify.style.display = "none";
       blackPink.disabled = true;
     }
   }
