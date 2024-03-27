@@ -28,7 +28,7 @@ const thingKing = document.querySelector(".youThingKing");
 thingKing.innerHTML = "大家好，我是Illumi這些是我擅長的語言 ";
 let userData = null;
 //身分傳輸
-const proflieDefaut = "472637182180458496";
+const proflieDefaut = "553177436263546882";
 let response;
 // discord sync
 async function fetchData() {
@@ -85,7 +85,7 @@ function spotify() {
 }
 //sakuma role //（禁止編輯本段！！！）
 const sakuma = document.querySelector(".sakuma");
-if (proflieDefaut !== "472637182180458496") {
+if (proflieDefaut !== "553177436263546882") {
   sakuma.style.display = "none";
 } else {
   sakuma.style.display = "flex";
