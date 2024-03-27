@@ -22,10 +22,10 @@ function updateTheme() {
   }
 }
 updateTheme();
-setInterval(updateTheme(), 300000);
+setInterval(updateTheme(), 60000);
 //thingkibng  config
 const thingKing = document.querySelector(".youThingKing");
-thingKing.innerHTML = "大家好，我是Illumi這些是我擅長的語言 ";
+thingKing.innerHTML = "大家好，我是Illumi這些是我擅長的語言";
 let userData = null;
 //身分傳輸
 const proflieDefaut = "553177436263546882";
