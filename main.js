@@ -1,4 +1,4 @@
-//©Coppyright by YukiDev (Đặng Hoàng Thiên Ân)
+//©Coppyright by YukiDev&illumi (Đặng Hoàng Thiên Ân•照美冥你姊我嘎嘎牛逼)
 const roleCode = document.querySelectorAll(".cir");
 const audio = document.querySelector(".audio");
 for (let i = 0; i < roleCode.length; i++) {
@@ -6,13 +6,13 @@ for (let i = 0; i < roleCode.length; i++) {
   roleCode[i].classList.add(`active${indexNum}`);
 }
 
-// Hàm để kiểm tra xem có phải là ban ngày hay không
+// 檢查是否為白天的功能
 function isDayTime() {
   const currentHour = new Date().getHours();
   return currentHour >= 7 && currentHour < 19;
 }
 
-// Hàm để cập nhật màu sắc của themee
+//更新主題顏色的函數
 function updateTheme() {
   const night = document.querySelector("#night");
   if (isDayTime()) {
@@ -25,10 +25,10 @@ updateTheme();
 setInterval(updateTheme(), 300000);
 //thingkibng  config
 const thingKing = document.querySelector(".youThingKing");
-thingKing.innerHTML = "Xin chào mình là Yuki SE tại VNG ";
+thingKing.innerHTML = "大家好，我是Illumi。 ";
 let userData = null;
 //công táo  truyền id
-const proflieDefaut = "654675180529909789";
+const proflieDefaut = "472637182180458496";
 let response;
 // discord sync
 async function fetchData() {
@@ -83,14 +83,14 @@ function spotify() {
     }
   }
 }
-//vng role // (cấm sửa đoạn này !!!!)
+//vng role //（禁止編輯本段！！！）
 const vng = document.querySelector(".vng");
 if (proflieDefaut !== "472637182180458496") {
   vng.style.display = "none";
 } else {
   vng.style.display = "flex";
 }
-// hmaf get gobalname và display name
+// hmaf 取得全域名稱和顯示名稱
 function getAName() {
   const tick = "./svg/icons8-blue-tick.svg";
   const gobalName = document.querySelector("#gobalname");
@@ -111,11 +111,11 @@ function getCaption() {
       userData.data.activities &&
       userData.data.activities.length > 0
     ) {
-      const activity = userData.data.activities[0]; //lấy mảng activities
-      let customIcon = ""; // Khởi tạo biến customIcon rỗng
+      const activity = userData.data.activities[0]; //取得活動數組
+      let customIcon = ""; // 初始化空的 customIcon 變數
       if (activity.emoji && activity.emoji.name) {
-        // Kiểm tra xem trường "name" trong đối tượng "emoji" có tồn tại hay không
-        customIcon = activity.emoji.name; // Gán giá trị cho biến customIcon nếu trường "name" tồn tại
+        // 檢查“emoji”物件中的“name”欄位是否存在
+        customIcon = activity.emoji.name; // 如果「名稱」欄位存在，則為 customIcon 變數指派一個值
       }
       captionElement.innerHTML = `${customIcon} ${activity.state}`;
     } else {
@@ -128,11 +128,11 @@ function getCaption() {
       userData.data.activities &&
       userData.data.activities.length > 0
     ) {
-      const activity = userData.data.activities[0]; //lấy mảng activities
-      let customIcon = ""; // Khởi tạo biến customIcon rỗng
+      const activity = userData.data.activities[0]; //取得活動數組
+      let customIcon = ""; // 初始化空的 customIcon 變數
       if (activity.emoji && activity.emoji.name) {
-        // Kiểm tra xem trường "name" trong đối tượng "emoji" có tồn tại hay không
-        customIcon = activity.emoji.name; // Gán giá trị cho biến customIcon nếu trường "name" tồn tại
+        // 檢查“emoji”物件中的“name”欄位是否存在
+        customIcon = activity.emoji.name; // 如果「名稱」欄位存在，則為 customIcon 變數指派一個值
       }
       captionElement.innerHTML = `${customIcon} ${activity.state}`;
     } else {
@@ -180,15 +180,15 @@ function getAvtUser() {
 }
 //warning //
 function warning() {
-  console.log(" %c DỪNG LẠI !!!!", "font-size: 50px; color: red;");
+  console.log(" %c 暫停一下 !!!!", "font-size: 50px; color: red;");
   console.log(
-    "thằng nào đồn ác bảo mày nhập cái của nợ gì vào đây để hack trang của chị mày à ??  bới ảo đi em"
+    "是否有一些邪惡的謠言告訴你在這裡輸入一些內容來黑掉你姐姐的頁面？讓我們把它挖出來"
   );
   console.log(
-    "%c dán mã bậy bạ vào đây có ngày pay  fb hay mấy cái acc game rồi lại đi chữi tk dev :)),",
+    "%c 把廢話程式碼貼在這裡，有一天你會付fb或某個遊戲帳號然後去帳號開發:)),",
     "color:red"
   );
-  console.log("nếu không biết mình đang làm gì thì làm ơn tắt cái tab console đi ba ");
+  console.log("如果您不知道自己在做什麼，請關閉控制台選項卡");
 }
 // no dev
 document.addEventListener("contextmenu", (e) => {
