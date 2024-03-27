@@ -1,0 +1,30 @@
+.aboutme {
+  background-color: black;
+}
+* {
+  color: var(--black-pink);
+  font-family: "Public Sans", sans-serif;
+  font-weight: 900;
+}
+:root {
+  --black-pink: rgb(255, 141, 200);
+}
+html body {
+  background-image: url(./images/pixelated-blackpink-logo-y9wx13o9du1098wa.jpg);
+  background-size: cover;
+}
+.discord--card__border {
+  background-color: black;
+}
+.discord--card__border .inner {
+  background-color: var(--black-pink);
+}
+.badges {
+  background-color: black;
+  border-right: 10px solid rgb(0, 0, 0);
+  border-left: 10px solid rgb(0, 0, 0);
+}
+.inner--contents__video {
+  background-image: url(./images/1000_F_374418307_jQ9AZf19A3e0eBf5k0nUmIVu6el3Dx5n.jpg);
+  background-size: cover;
+}
