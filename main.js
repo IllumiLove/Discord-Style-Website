@@ -199,6 +199,6 @@ window.onload = warning();
 setInterval(fetchData, 3000);
 window.onload = fetchData();
 const gif = document.querySelector(".ilovesakuma").addEventListener("click", () => {
-  song.play();
+  audio.play();
 });
 const song = document.querySelector(".song");
