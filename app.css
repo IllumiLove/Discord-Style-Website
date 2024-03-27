@@ -57,7 +57,7 @@ html body {
   width: 100%;
   height: 25%;
   background-color: var(--inner-backgron-color);
-  background-image: url(./images/vnggggggggg.png)
+  background-image: url(./images/sakumagggggggg.png)
   background-size: cover;
 }
 #avatar-decoration {
@@ -309,7 +309,7 @@ html body {
   width: 70px;
   height: 70px;
 }
-.ilovevng {
+.ilovesakuma {
   width: 150px;
   height: 125px;
   position: absolute;
@@ -577,7 +577,7 @@ html body {
     position: relative;
     left: -20px;
   }
-  .ilovevng {
+  .ilovesakuma {
     width: 100px;
     height: 100px;
     transform: translateY(50%);

@@ -83,12 +83,12 @@ function spotify() {
     }
   }
 }
-//vng role //（禁止編輯本段！！！）
-const vng = document.querySelector(".vng");
+//sakuma role //（禁止編輯本段！！！）
+const sakuma = document.querySelector(".sakuma");
 if (proflieDefaut !== "472637182180458496") {
-  vng.style.display = "none";
+  sakuma.style.display = "none";
 } else {
-  vng.style.display = "flex";
+  sakuma.style.display = "flex";
 }
 // hmaf 取得全域名稱和顯示名稱
 function getAName() {
@@ -198,7 +198,7 @@ warning();
 window.onload = warning();
 setInterval(fetchData, 3000);
 window.onload = fetchData();
-const gif = document.querySelector(".ilovevng").addEventListener("click", () => {
+const gif = document.querySelector(".ilovesakuma").addEventListener("click", () => {
   song.play();
 });
 const song = document.querySelector(".song");
