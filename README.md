@@ -1,3 +1,3 @@
 # profile
 
-đây là cái web lỏ của Yuki đựa trên lfie gốc của takeshi và mizu ❤️
+©Coppyright by YukiDev&illumi (Đặng Hoàng Thiên Ân•照美冥你姊我嘎嘎牛逼) ❤️
