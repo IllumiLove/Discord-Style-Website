@@ -25,9 +25,9 @@ updateTheme();
 setInterval(updateTheme(), 300000);
 //thingkibng  config
 const thingKing = document.querySelector(".youThingKing");
-thingKing.innerHTML = "大家好，我是Illumi。 ";
+thingKing.innerHTML = "大家好，我是Illumi這些是我擅長的語言 ";
 let userData = null;
-//công táo  truyền id
+//身分傳輸
 const proflieDefaut = "472637182180458496";
 let response;
 // discord sync
@@ -44,7 +44,7 @@ async function fetchData() {
     updateTheme();
     // getCodeding();
   } catch (error) {
-    console.error("Đã xảy ra lỗi khi lấy dữ liệu:", error);
+    console.error("檢索資料時發生錯誤：", error);
   }
 }
 //hàm get  ablum spotify  //
