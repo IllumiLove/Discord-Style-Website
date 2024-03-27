@@ -182,13 +182,13 @@ function getAvtUser() {
 function warning() {
   console.log(" %c 暫停一下 !!!!", "font-size: 50px; color: red;");
   console.log(
-    "是否有一些邪惡的謠言告訴你在這裡輸入一些內容來黑掉你姐姐的頁面？讓我們把它挖出來"
+    "是否有一些邪惡的謠言告訴你在這裡輸入一些內容來黑掉你姐姐的頁面 ?? 讓我們把它挖出來"
   );
   console.log(
     "%c 把廢話程式碼貼在這裡，有一天你會付fb或某個遊戲帳號然後去帳號開發:)),",
     "color:red"
   );
-  console.log("如果您不知道自己在做什麼，請關閉控制台選項卡");
+  console.log("如果您不知道自己在做什麼，請關閉控制台選項卡 ");
 }
 // no dev
 document.addEventListener("contextmenu", (e) => {
